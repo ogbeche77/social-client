@@ -19,6 +19,7 @@ export class home extends Component {
         })
         .catch(err => console.log(err));
 
+        
     }
     render() {
         let recentScreamsMarkup = this.state.screams ? (this.state.screams.map((scream) => <Scream scream={scream}/>)) : <p> Still loading</p>
