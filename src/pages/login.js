@@ -13,7 +13,7 @@ const styles = {
         textAlign: 'center'
     },
     image: {
-        margin: '20px auto 20px auto'  //spacing btween navbar and icon image
+        margin: '20px auto 20px auto'  //spacing between navbar and icon image
     }
 };
 
